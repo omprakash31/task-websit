@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css stylings/materialize/css/materialize.min.css">
+    <link rel="stylesheet" href="/css stylings/fontawesome-free-5.15.1-web/fontawesome-free-5.15.1-web/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="cols s12">
+                <div class="card" id="main">
+                    <div class="card-content">
+                       <div class="row">
+                        <span class="card-title">Task Title</span>
+                        <form id="task-form">
+                            <div class="input-field col s12">
+                            <input type="text" id="task" name="task">
+                            <label for="task">New Task</label>
+                            <input type="submit" value="ADD TASK" class="btn">
+                            </div>
+                        </form>
+                        </div> 
+                    </div>
+                    <div class="card-action">
+                        <h2 class="Task-title">Tasks</h2>
+                        <ul class="collection">
+
+                        </ul>
+                        <a href="#" class="clear-tasks btn black">Clear Tasks</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="/app3.js"></script>
+</body>
+</html>
